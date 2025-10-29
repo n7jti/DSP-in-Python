@@ -1,4 +1,4 @@
-# Lesson 4: Convolution and its Properties
+# Lesson 3: Convolution and its Properties
 
 ## Overview
 
@@ -15,7 +15,7 @@ After completing this lesson, you should be able to:
 
 ## Video Lecture
 
-📺 [Watch Lecture 4 on YouTube](https://www.youtube.com/watch?v=acAw5WGtzuk&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=4)
+📺 [Watch Lecture 3 on YouTube](https://www.youtube.com/watch?v=acAw5WGtzuk&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=4)
 
 ## Key Concepts
 
@@ -182,8 +182,8 @@ Practice problems are available in the `exercises/` directory:
 
 ## Previous Lesson
 
-[Lesson 3: Linear, Time-Invariant Systems](../lesson_03/)
+[Lesson 2: Linear, Time-Invariant Systems](../lesson_02/)
 
 ## Next Lesson
 
-[Lesson 5: The Fourier Series](../lesson_05/) - Learn about representing periodic signals in the frequency domain.
+[Lesson 4: The Fourier Series](../lesson_04/) - Learn about representing periodic signals in the frequency domain.

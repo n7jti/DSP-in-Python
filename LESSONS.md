@@ -19,101 +19,111 @@ Each lesson includes:
 - **Topics**: Signal types, continuous vs discrete, unit step, unit impulse, exponentials
 - **Libraries**: NumPy, Matplotlib
 
-#### [Lesson 2: Python for DSP](./lessons/lesson_02/)
-- **Video**: [DSP Lecture 2](https://www.youtube.com/watch?v=FmFlQFFM-xM&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=2)
+#### [Lesson 1a: Python for DSP](./lessons/lesson_01a/)
+- **Video**: [DSP Lecture 1a](https://www.youtube.com/watch?v=FmFlQFFM-xM&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=2)
 - **Topics**: Python basics, NumPy arrays, SciPy signal processing, Matplotlib plotting
 - **Libraries**: NumPy, SciPy, Matplotlib, Jupyter
 
-#### [Lesson 3: Linear, Time-Invariant Systems](./lessons/lesson_03/)
-- **Video**: [DSP Lecture 3](https://www.youtube.com/watch?v=1GBOHQzjQAc&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=3)
+#### [Lesson 2: Linear, Time-Invariant Systems](./lessons/lesson_02/)
+- **Video**: [DSP Lecture 2](https://www.youtube.com/watch?v=1GBOHQzjQAc&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=3)
 - **Topics**: LTI systems, impulse response, system properties (linearity, time-invariance)
 - **Libraries**: NumPy, SciPy.signal
 
-#### [Lesson 4: Convolution and its Properties](./lessons/lesson_04/)
-- **Video**: [DSP Lecture 4](https://www.youtube.com/watch?v=acAw5WGtzuk&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=4)
+#### [Lesson 3: Convolution and its Properties](./lessons/lesson_03/)
+- **Video**: [DSP Lecture 3](https://www.youtube.com/watch?v=acAw5WGtzuk&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=4)
 - **Topics**: Discrete convolution, convolution properties, implementation techniques
 - **Libraries**: NumPy, SciPy.signal
 
-#### [Lesson 5: The Fourier Series](./lessons/lesson_05/)
-- **Video**: [DSP Lecture 5](https://www.youtube.com/watch?v=U0pKexplog8&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=5)
+#### [Lesson 4: The Fourier Series](./lessons/lesson_04/)
+- **Video**: [DSP Lecture 4](https://www.youtube.com/watch?v=U0pKexplog8&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=5)
 - **Topics**: Periodic signals, Fourier series representation, synthesis and analysis
 - **Libraries**: NumPy, Matplotlib
 
-#### [Lesson 6: The Fourier Transform](./lessons/lesson_06/)
-- **Video**: [DSP Lecture 6](https://www.youtube.com/watch?v=YYFejAG47Z0&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=6)
+#### [Lesson 5: The Fourier Transform](./lessons/lesson_05/)
+- **Video**: [DSP Lecture 5](https://www.youtube.com/watch?v=YYFejAG47Z0&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=6)
 - **Topics**: Continuous Fourier transform, transform pairs, properties
 - **Libraries**: NumPy, SciPy.fft
 
-#### [Lesson 7: Frequency Response](./lessons/lesson_07/)
-- **Video**: [DSP Lecture 7](https://www.youtube.com/watch?v=hMTww2KaOeE&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=7)
+#### [Lesson 6: Frequency Response](./lessons/lesson_06/)
+- **Video**: [DSP Lecture 6](https://www.youtube.com/watch?v=hMTww2KaOeE&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=7)
 - **Topics**: Frequency response of LTI systems, magnitude and phase response
 - **Libraries**: SciPy.signal, Matplotlib
 
-#### [Lesson 8: The Discrete-Time Fourier Transform](./lessons/lesson_08/)
-- **Video**: [DSP Lecture 8](https://www.youtube.com/watch?v=RNBJGUa4L1Q&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=8)
+#### [Lesson 7: The Discrete-Time Fourier Transform](./lessons/lesson_07/)
+- **Video**: [DSP Lecture 7](https://www.youtube.com/watch?v=RNBJGUa4L1Q&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=8)
 - **Topics**: DTFT definition, properties, relationship to z-transform
 - **Libraries**: NumPy, SciPy.fft
 
-#### [Lesson 9: The z-Transform](./lessons/lesson_09/)
-- **Video**: [DSP Lecture 9](https://www.youtube.com/watch?v=57LvJM_cg94&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=9)
+#### [Lesson 8: The z-Transform](./lessons/lesson_08/)
+- **Video**: [DSP Lecture 8](https://www.youtube.com/watch?v=57LvJM_cg94&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=9)
 - **Topics**: z-transform definition, region of convergence, common transforms
 - **Libraries**: NumPy, SciPy.signal
 
-#### [Lesson 10: The Inverse z-Transform; Poles and Zeros](./lessons/lesson_10/)
-- **Video**: [DSP Lecture 10](https://www.youtube.com/watch?v=u6rJF3KtZPw&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=10)
+#### [Lesson 9: The Inverse z-Transform; Poles and Zeros](./lessons/lesson_09/)
+- **Video**: [DSP Lecture 9](https://www.youtube.com/watch?v=u6rJF3KtZPw&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=10)
 - **Topics**: Inverse z-transform, pole-zero analysis, stability
 - **Libraries**: NumPy, SciPy.signal, Matplotlib
 
-#### [Lesson 11: The Discrete Fourier Transform](./lessons/lesson_11/)
-- **Video**: [DSP Lecture 11](https://www.youtube.com/watch?v=kd5RAIW3wFs&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=11)
+#### [Lesson 10: The Discrete Fourier Transform](./lessons/lesson_10/)
+- **Video**: [DSP Lecture 10](https://www.youtube.com/watch?v=kd5RAIW3wFs&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=11)
 - **Topics**: DFT definition, circular convolution, DFT properties
 - **Libraries**: NumPy.fft, SciPy.fft
 
 ### Part II: Fast Algorithms and Sampling
 
-#### [Lesson 12: Radix-2 Fast Fourier Transforms](./lessons/lesson_12/)
-- **Video**: [DSP Lecture 12](https://www.youtube.com/watch?v=M0Sa8fLOajA&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=12)
+#### [Lesson 10a: Exam 1 Review](./lessons/lesson_10a/)
+- **Video**: [DSP Lecture 10a](https://www.youtube.com/watch?v=M0Sa8fLOajA&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=12)
+- **Topics**: Review of fundamental concepts, midterm preparation
+- **Libraries**: Review of NumPy, SciPy
+
+#### [Lesson 11: Radix-2 Fast Fourier Transforms](./lessons/lesson_11/)
+- **Video**: [DSP Lecture 11](https://www.youtube.com/watch?v=M0Sa8fLOajA&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=12)
 - **Topics**: FFT algorithm, computational complexity, decimation-in-time
 - **Libraries**: NumPy.fft
 
-#### [Lesson 13: The Cooley-Tukey and Good-Thomas FFTs](./lessons/lesson_13/)
-- **Video**: [DSP Lecture 13](https://www.youtube.com/watch?v=k8NZ-wMMWzk&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=13)
+#### [Lesson 12: The Cooley-Tukey and Good-Thomas FFTs](./lessons/lesson_12/)
+- **Video**: [DSP Lecture 12](https://www.youtube.com/watch?v=k8NZ-wMMWzk&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=13)
 - **Topics**: Advanced FFT algorithms, mixed-radix FFT
 - **Libraries**: NumPy.fft, SciPy.fft
 
-#### [Lesson 14: The Sampling Theorem](./lessons/lesson_14/)
-- **Video**: [DSP Lecture 14](https://www.youtube.com/watch?v=FcXZ28BX-xE&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=14)
+#### [Lesson 13: The Sampling Theorem](./lessons/lesson_13/)
+- **Video**: [DSP Lecture 13](https://www.youtube.com/watch?v=FcXZ28BX-xE&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=14)
 - **Topics**: Nyquist rate, aliasing, reconstruction
 - **Libraries**: NumPy, SciPy.signal, Matplotlib
 
-#### [Lesson 15: Continuous-Time Filtering with Digital Systems](./lessons/lesson_15/)
-- **Video**: [DSP Lecture 15](https://www.youtube.com/watch?v=t6ACbO4kbKQ&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=15)
+#### [Lesson 14: Continuous-Time Filtering with Digital Systems; Upsampling and Downsampling](./lessons/lesson_14/)
+- **Video**: [DSP Lecture 14](https://www.youtube.com/watch?v=t6ACbO4kbKQ&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=15)
 - **Topics**: Upsampling, downsampling, interpolation, decimation
 - **Libraries**: SciPy.signal.resample
 
-#### [Lesson 16: Multirate Signal Processing and Polyphase](./lessons/lesson_16/)
-- **Video**: [DSP Lecture 16](https://www.youtube.com/watch?v=9YFmTdVYkdI&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=16)
+#### [Lesson 15: Multirate Signal Processing and Polyphase Representations](./lessons/lesson_15/)
+- **Video**: [DSP Lecture 15](https://www.youtube.com/watch?v=9YFmTdVYkdI&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=16)
 - **Topics**: Polyphase decomposition, efficient multirate systems
 - **Libraries**: SciPy.signal
 
 ### Part III: Filter Design
 
-#### [Lesson 17: FIR Filter Design (Least-Squares)](./lessons/lesson_17/)
-- **Video**: [DSP Lecture 17](https://www.youtube.com/watch?v=3AajZbHDPmQ&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=17)
+#### [Lesson 16: FIR Filter Design (Least-Squares)](./lessons/lesson_16/)
+- **Video**: [DSP Lecture 16](https://www.youtube.com/watch?v=3AajZbHDPmQ&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=17)
 - **Topics**: FIR filter design, windowing methods, least-squares approximation
 - **Libraries**: SciPy.signal.firwin
 
-#### [Lesson 18: FIR Filter Design (Chebyshev)](./lessons/lesson_18/)
-- **Video**: [DSP Lecture 18](https://www.youtube.com/watch?v=Fx7DkM8CbSo&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=18)
+#### [Lesson 17: FIR Filter Design (Chebyshev)](./lessons/lesson_17/)
+- **Video**: [DSP Lecture 17](https://www.youtube.com/watch?v=Fx7DkM8CbSo&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=18)
 - **Topics**: Chebyshev approximation, Parks-McClellan algorithm
 - **Libraries**: SciPy.signal.remez
 
-#### [Lesson 19: IIR Filter Design](./lessons/lesson_19/)
-- **Video**: [DSP Lecture 19](https://www.youtube.com/watch?v=jRHVf5d1KTU&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=19)
+#### [Lesson 18: IIR Filter Design](./lessons/lesson_18/)
+- **Video**: [DSP Lecture 18](https://www.youtube.com/watch?v=jRHVf5d1KTU&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=19)
 - **Topics**: Butterworth, Chebyshev, elliptic filters, bilinear transform
 - **Libraries**: SciPy.signal (butter, cheby1, cheby2, ellip)
 
 ### Part IV: Adaptive Filters
+
+#### [Lesson 19: Introduction to Adaptive Filtering; ARMA Processes](./lessons/lesson_19/)
+- **Video**: [DSP Lecture 19](https://www.youtube.com/watch?v=DH5Jw5gIPuM&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=20)
+- **Topics**: Introduction to adaptive filtering, ARMA models, statistical signal processing
+- **Libraries**: NumPy, SciPy.signal
 
 #### [Lesson 20: The Wiener Filter](./lessons/lesson_20/)
 - **Video**: [DSP Lecture 20](https://www.youtube.com/watch?v=DH5Jw5gIPuM&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=20)
@@ -129,6 +139,11 @@ Each lesson includes:
 - **Video**: [DSP Lecture 22](https://www.youtube.com/watch?v=hU7JJVFIq6k&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=22)
 - **Topics**: RLS algorithm, exponential weighting, tracking
 - **Libraries**: NumPy
+
+#### [Lesson 22a: Exam 2 Review](./lessons/lesson_22a/)
+- **Video**: [DSP Lecture 22a](https://www.youtube.com/watch?v=hU7JJVFIq6k&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=22)
+- **Topics**: Review of advanced concepts, final exam preparation
+- **Libraries**: Review of all previous topics
 
 ### Part V: Quantization and Advanced Topics
 

@@ -1,4 +1,4 @@
-# Lesson 2: Python for DSP
+# Lesson 1a: Python for DSP
 
 ## Overview
 
@@ -15,7 +15,7 @@ After completing this lesson, you should be able to:
 
 ## Video Lecture
 
-📺 [Watch Lecture 2 on YouTube](https://www.youtube.com/watch?v=FmFlQFFM-xM&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=2)
+📺 [Watch Lecture 1a on YouTube](https://www.youtube.com/watch?v=FmFlQFFM-xM&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=2)
 
 ## Key Concepts
 
