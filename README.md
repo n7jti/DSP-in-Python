@@ -1,5 +1,4 @@
 # DSP-in-Python
-
 This repository contains Python examples that follow the Digital Signal Processing (DSP) course by Professor Rich Radke from Rensselaer Polytechnic Institute. The goal is to convert the MATLAB examples used in the course to free, accessible Python examples using NumPy, SciPy, and Matplotlib.
 
 ## Course Information
@@ -146,3 +145,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Contact
 
 For questions or suggestions, please open an issue on GitHub.
+
