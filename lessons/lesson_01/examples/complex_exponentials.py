@@ -135,8 +135,9 @@ def main():
     ax5.set_xlim(-1.3, 1.3)
     ax5.set_ylim(-1.3, 1.3)
     
-    plt.savefig(output_dir / 'complex_exponentials.png', dpi=150, bbox_inches='tight')
-    print(f"Figure saved as '{output_dir / 'complex_exponentials.png'}'")
+    output_path = output_dir / 'complex_exponentials.png'
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    print(f"Figure saved as '{output_path}'")
     plt.show()
     
     # Print Euler's formula verification
