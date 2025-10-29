@@ -1,0 +1,17 @@
+# Core scientific computing libraries
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+
+# Optional: Interactive computing
+jupyter>=1.0.0
+ipython>=8.12.0
+
+# Optional: Audio processing
+soundfile>=0.12.0
+
+# Optional: Image processing
+Pillow>=10.0.0
+
+# Optional: Additional visualization
+seaborn>=0.12.0
