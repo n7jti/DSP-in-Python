@@ -12,6 +12,7 @@ License: MIT
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import signal
+from pathlib import Path
 
 
 def discrete_convolution(x, h):
@@ -35,6 +36,10 @@ def discrete_convolution(x, h):
 
 def main():
     """Demonstrate basic convolution with visualization."""
+    
+    # Set up output directory
+    output_dir = Path(__file__).parent.parent / 'data'
+    output_dir.mkdir(exist_ok=True)
     
     # Example 1: Rectangular pulses
     print("Example 1: Convolution of Two Rectangular Pulses")
@@ -103,8 +108,9 @@ def main():
                      verticalalignment='center', family='monospace')
     
     plt.tight_layout()
-    plt.savefig('../data/convolution_rectangles.png', dpi=150, bbox_inches='tight')
-    print("\nFigure saved as 'convolution_rectangles.png'\n")
+    output_path = output_dir / 'convolution_rectangles.png'
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    print(f"\nFigure saved as '{output_path}'\n")
     
     # Example 2: Exponential sequence
     print("\nExample 2: Convolution with Exponential Decay")
@@ -153,8 +159,9 @@ def main():
     axes2[2].grid(True, alpha=0.3)
     
     plt.tight_layout()
-    plt.savefig('../data/convolution_exponential.png', dpi=150, bbox_inches='tight')
-    print("\nFigure saved as 'convolution_exponential.png'\n")
+    output_path = output_dir / 'convolution_exponential.png'
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    print(f"\nFigure saved as '{output_path}'\n")
     
     # Example 3: Convolution modes
     print("\nExample 3: Convolution Modes")

@@ -15,6 +15,7 @@ License: MIT
 
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 
 def unit_impulse(n, n0=0):
@@ -100,6 +101,10 @@ def sinusoidal_sequence(n, A, omega, phi=0):
 def main():
     """Demonstrate basic discrete-time signals."""
     
+    # Set up output directory
+    output_dir = Path(__file__).parent.parent / 'data'
+    output_dir.mkdir(exist_ok=True)
+    
     # Time index
     n = np.arange(-10, 21)
     
@@ -151,8 +156,9 @@ def main():
     axes[1, 1].axvline(x=0, color='k', linewidth=0.5)
     
     plt.tight_layout()
-    plt.savefig('../data/basic_signals.png', dpi=150, bbox_inches='tight')
-    print("Figure saved as 'basic_signals.png'")
+    output_path = output_dir / 'basic_signals.png'
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    print(f"Figure saved as '{output_path}'")
     plt.show()
     
     # Print some signal properties

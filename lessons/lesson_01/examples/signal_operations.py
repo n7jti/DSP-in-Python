@@ -15,6 +15,7 @@ License: MIT
 
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 
 def time_shift(x, n, k):
@@ -64,6 +65,10 @@ def time_reverse(x, n):
 
 def main():
     """Demonstrate signal operations."""
+    
+    # Set up output directory
+    output_dir = Path(__file__).parent.parent / 'data'
+    output_dir.mkdir(exist_ok=True)
     
     # Create an example signal: rectangular pulse
     n = np.arange(-10, 11)
@@ -143,8 +148,9 @@ def main():
     axes[2, 1].set_ylim(-0.2, 2.5)
     
     plt.tight_layout()
-    plt.savefig('../data/signal_operations.png', dpi=150, bbox_inches='tight')
-    print("Figure saved as 'signal_operations.png'")
+    output_path = output_dir / 'signal_operations.png'
+    plt.savefig(output_path, dpi=150, bbox_inches='tight')
+    print(f"Figure saved as '{output_path}'")
     plt.show()
     
     # Print information

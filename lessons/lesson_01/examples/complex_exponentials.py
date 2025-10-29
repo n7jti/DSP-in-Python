@@ -12,6 +12,7 @@ License: MIT
 
 import numpy as np
 import matplotlib.pyplot as plt
+from pathlib import Path
 
 
 def complex_exponential(n, omega):
@@ -35,6 +36,10 @@ def complex_exponential(n, omega):
 
 def main():
     """Demonstrate complex exponentials and Euler's formula."""
+    
+    # Set up output directory
+    output_dir = Path(__file__).parent.parent / 'data'
+    output_dir.mkdir(exist_ok=True)
     
     # Time index
     n = np.arange(0, 32)
@@ -130,8 +135,8 @@ def main():
     ax5.set_xlim(-1.3, 1.3)
     ax5.set_ylim(-1.3, 1.3)
     
-    plt.savefig('../data/complex_exponentials.png', dpi=150, bbox_inches='tight')
-    print("Figure saved as 'complex_exponentials.png'")
+    plt.savefig(output_dir / 'complex_exponentials.png', dpi=150, bbox_inches='tight')
+    print(f"Figure saved as '{output_dir / 'complex_exponentials.png'}'")
     plt.show()
     
     # Print Euler's formula verification
