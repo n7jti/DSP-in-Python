@@ -14,45 +14,42 @@ This repository contains Python examples that follow the Digital Signal Processi
 The course consists of 28 comprehensive lessons covering fundamental and advanced DSP topics:
 
 ### Part I: Fundamentals (Lessons 1-10a)
-1. **Discrete-time Signals** - Introduction to signal types and discrete-time signal basics
-1a. **Python for DSP** - Python tools and libraries for DSP (NumPy, SciPy, Matplotlib)
-2. **Linear, Time-Invariant Systems** - Impulse response and system properties
-3. **Convolution and its Properties** - Understanding and implementing convolution
-4. **The Fourier Series** - Periodic signal representation
-5. **The Fourier Transform** - Transition from time to frequency domain
-6. **Frequency Response** - System analysis in the frequency domain
-7. **The Discrete-Time Fourier Transform** - DTFT theory and applications
-8. **The z-Transform** - Transform methods for discrete systems
-9. **The Inverse z-Transform; Poles and Zeros** - System analysis using poles and zeros
-10. **The Discrete Fourier Transform** - DFT and its properties
-10a. **Exam 1 Review** - Midterm preparation and review
+- **Lesson 1:** Discrete-time Signals - Introduction to signal types and discrete-time signal basics
+- **Lesson 1a:** Python for DSP - Python tools and libraries for DSP (NumPy, SciPy, Matplotlib)
+- **Lesson 2:** Linear, Time-Invariant Systems - Impulse response and system properties
+- **Lesson 3:** Convolution and its Properties - Understanding and implementing convolution
+- **Lesson 4:** The Fourier Series - Periodic signal representation
+- **Lesson 5:** The Fourier Transform - Transition from time to frequency domain
+- **Lesson 6:** Frequency Response - System analysis in the frequency domain
+- **Lesson 7:** The Discrete-Time Fourier Transform - DTFT theory and applications
+- **Lesson 8:** The z-Transform - Transform methods for discrete systems
+- **Lesson 9:** The Inverse z-Transform; Poles and Zeros - System analysis using poles and zeros
+- **Lesson 10:** The Discrete Fourier Transform - DFT and its properties
+- **Lesson 10a:** Exam 1 Review - Midterm preparation and review
 
 ### Part II: Fast Algorithms and Sampling (Lessons 11-15)
-11. **Radix-2 Fast Fourier Transforms** - Efficient FFT algorithms
-12. **The Cooley-Tukey and Good-Thomas FFTs** - Advanced FFT algorithms
-13. **The Sampling Theorem** - Nyquist sampling and aliasing
-14. **Continuous-Time Filtering with Digital Systems; Upsampling and Downsampling** - Rate conversion
-15. **Multirate Signal Processing and Polyphase Representations** - Efficient multirate systems
+- **Lesson 11:** Radix-2 Fast Fourier Transforms - Efficient FFT algorithms
+- **Lesson 12:** The Cooley-Tukey and Good-Thomas FFTs - Advanced FFT algorithms
+- **Lesson 13:** The Sampling Theorem - Nyquist sampling and aliasing
+- **Lesson 14:** Continuous-Time Filtering with Digital Systems; Upsampling and Downsampling - Rate conversion
+- **Lesson 15:** Multirate Signal Processing and Polyphase Representations - Efficient multirate systems
 
 ### Part III: Filter Design (Lessons 16-18)
-16. **FIR Filter Design (Least-Squares)** - FIR filter design using least-squares method
-17. **FIR Filter Design (Chebyshev)** - Chebyshev approximation for FIR filters
-18. **IIR Filter Design** - Infinite impulse response filter design
+- **Lesson 16:** FIR Filter Design (Least-Squares) - FIR filter design using least-squares method
+- **Lesson 17:** FIR Filter Design (Chebyshev) - Chebyshev approximation for FIR filters
+- **Lesson 18:** IIR Filter Design - Infinite impulse response filter design
 
 ### Part IV: Adaptive Filters (Lessons 19-22a)
-19. **Introduction to Adaptive Filtering; ARMA Processes** - Statistical signal processing and adaptive filtering introduction
-20. **The Wiener Filter** - Optimal filtering for noise reduction
-21. **Gradient Descent and LMS** - Adaptive filter algorithms
-22. **Least Squares and Recursive Least Squares** - RLS algorithms for parameter estimation
-22a. **Exam 2 Review** - Final exam preparation and review
+- **Lesson 19:** Introduction to Adaptive Filtering; ARMA Processes - Statistical signal processing and adaptive filtering introduction
+- **Lesson 20:** The Wiener Filter - Optimal filtering for noise reduction
+- **Lesson 21:** Gradient Descent and LMS - Adaptive filter algorithms
+- **Lesson 22:** Least Squares and Recursive Least Squares - RLS algorithms for parameter estimation
+- **Lesson 22a:** Exam 2 Review - Final exam preparation and review
 
-### Part V: Quantization and Advanced Topics (Lessons 23-28)
-23. **Introduction to Quantization** - Analog-to-digital conversion
-24. **Differential Quantization and Vocoding** - Advanced quantization methods
-25. **Perfect Reconstruction Filter Banks and Introduction to Wavelets** - Subband coding
-26. **Wavelets (Part 1)** - Wavelet theory and transforms
-27. **Wavelets (Part 2)** - Advanced wavelet applications
-28. **Advanced DSP Topics** - Modern signal processing techniques
+### Part V: Quantization and Advanced Topics (Lessons 23-25)
+- **Lesson 23:** Introduction to Quantization - Analog-to-digital conversion
+- **Lesson 24:** Differential Quantization and Vocoding - Advanced quantization methods
+- **Lesson 25:** Perfect Reconstruction Filter Banks; Introduction to Wavelets - Subband coding and wavelet theory
 
 ## Repository Structure
 
