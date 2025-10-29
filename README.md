@@ -13,35 +13,38 @@ This repository contains Python examples that follow the Digital Signal Processi
 
 The course consists of 28 comprehensive lessons covering fundamental and advanced DSP topics:
 
-### Part I: Fundamentals (Lessons 1-11)
+### Part I: Fundamentals (Lessons 1-10a)
 1. **Discrete-time Signals** - Introduction to signal types and discrete-time signal basics
-2. **Python for DSP** - Python tools and libraries for DSP (NumPy, SciPy, Matplotlib)
-3. **Linear, Time-Invariant Systems** - Impulse response and system properties
-4. **Convolution and its Properties** - Understanding and implementing convolution
-5. **The Fourier Series** - Periodic signal representation
-6. **The Fourier Transform** - Transition from time to frequency domain
-7. **Frequency Response** - System analysis in the frequency domain
-8. **The Discrete-Time Fourier Transform** - DTFT theory and applications
-9. **The z-Transform** - Transform methods for discrete systems
-10. **The Inverse z-Transform; Poles and Zeros** - System analysis using poles and zeros
-11. **The Discrete Fourier Transform** - DFT and its properties
+1a. **Python for DSP** - Python tools and libraries for DSP (NumPy, SciPy, Matplotlib)
+2. **Linear, Time-Invariant Systems** - Impulse response and system properties
+3. **Convolution and its Properties** - Understanding and implementing convolution
+4. **The Fourier Series** - Periodic signal representation
+5. **The Fourier Transform** - Transition from time to frequency domain
+6. **Frequency Response** - System analysis in the frequency domain
+7. **The Discrete-Time Fourier Transform** - DTFT theory and applications
+8. **The z-Transform** - Transform methods for discrete systems
+9. **The Inverse z-Transform; Poles and Zeros** - System analysis using poles and zeros
+10. **The Discrete Fourier Transform** - DFT and its properties
+10a. **Exam 1 Review** - Midterm preparation and review
 
-### Part II: Fast Algorithms and Sampling (Lessons 12-16)
-12. **Radix-2 Fast Fourier Transforms** - Efficient FFT algorithms
-13. **The Cooley-Tukey and Good-Thomas FFTs** - Advanced FFT algorithms
-14. **The Sampling Theorem** - Nyquist sampling and aliasing
-15. **Continuous-Time Filtering with Digital Systems; Upsampling and Downsampling** - Rate conversion
-16. **Multirate Signal Processing and Polyphase Representations** - Efficient multirate systems
+### Part II: Fast Algorithms and Sampling (Lessons 11-15)
+11. **Radix-2 Fast Fourier Transforms** - Efficient FFT algorithms
+12. **The Cooley-Tukey and Good-Thomas FFTs** - Advanced FFT algorithms
+13. **The Sampling Theorem** - Nyquist sampling and aliasing
+14. **Continuous-Time Filtering with Digital Systems; Upsampling and Downsampling** - Rate conversion
+15. **Multirate Signal Processing and Polyphase Representations** - Efficient multirate systems
 
-### Part III: Filter Design (Lessons 17-19)
-17. **FIR Filter Design (Least-Squares)** - FIR filter design using least-squares method
-18. **FIR Filter Design (Chebyshev)** - Chebyshev approximation for FIR filters
-19. **IIR Filter Design** - Infinite impulse response filter design
+### Part III: Filter Design (Lessons 16-18)
+16. **FIR Filter Design (Least-Squares)** - FIR filter design using least-squares method
+17. **FIR Filter Design (Chebyshev)** - Chebyshev approximation for FIR filters
+18. **IIR Filter Design** - Infinite impulse response filter design
 
-### Part IV: Adaptive Filters (Lessons 20-22)
+### Part IV: Adaptive Filters (Lessons 19-22a)
+19. **Introduction to Adaptive Filtering; ARMA Processes** - Statistical signal processing and adaptive filtering introduction
 20. **The Wiener Filter** - Optimal filtering for noise reduction
 21. **Gradient Descent and LMS** - Adaptive filter algorithms
 22. **Least Squares and Recursive Least Squares** - RLS algorithms for parameter estimation
+22a. **Exam 2 Review** - Final exam preparation and review
 
 ### Part V: Quantization and Advanced Topics (Lessons 23-28)
 23. **Introduction to Quantization** - Analog-to-digital conversion
@@ -66,11 +69,12 @@ DSP-in-Python/
 ├── LICENSE
 ├── .gitignore
 ├── lessons/
-│   ├── lesson_01_discrete_time_signals/
-│   ├── lesson_02_python_for_dsp/
-│   ├── lesson_03_lti_systems/
+│   ├── lesson_01/
+│   ├── lesson_01a/
+│   ├── lesson_02/
+│   ├── lesson_03/
 │   ├── ...
-│   └── lesson_28_advanced_topics/
+│   └── lesson_25/
 └── utils/
     └── common_functions.py
 ```
@@ -100,7 +104,7 @@ DSP-in-Python/
 Navigate to any lesson directory and run the Python scripts:
 
 ```bash
-cd lessons/lesson_01_discrete_time_signals/examples
+cd lessons/lesson_01/examples
 python signal_types.py
 ```
 
