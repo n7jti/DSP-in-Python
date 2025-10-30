@@ -91,4 +91,4 @@ Practice problems are available in the `exercises/` directory:
 
 ## Next Lesson
 
-[Lesson 2: Python for DSP](../lesson_02/) - Learn the essential Python tools for digital signal processing.
+[Lesson 2: Python for DSP](../lesson_01a/) - Learn the essential Python tools for digital signal processing.
