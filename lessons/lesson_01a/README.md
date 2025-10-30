@@ -1,49 +1,6 @@
 # Lesson 1a: Python for DSP
 
-## Overview
-
-This lesson introduces the essential Python tools and libraries used for digital signal processing, serving as the Python equivalent to MATLAB for DSP.
-
-## Learning Objectives
-
-After completing this lesson, you should be able to:
-- Set up a Python environment for DSP work
-- Use NumPy for numerical computing and array operations
-- Apply SciPy's signal processing functions
-- Create visualizations with Matplotlib
-- Use Jupyter notebooks for interactive DSP exploration
-
-## Video Lecture
-
 📺 [Watch Lecture 1a on YouTube](https://www.youtube.com/watch?v=FmFlQFFM-xM&list=PLuh62Q4Sv7BUSzx5Jr8Wrxxn-U10qG1et&index=2)
-
-## Key Concepts
-
-### Python Libraries for DSP
-
-1. **NumPy** - The foundation
-   - N-dimensional arrays
-   - Mathematical functions
-   - Linear algebra operations
-   - Random number generation
-
-2. **SciPy** - Scientific computing
-   - `scipy.signal`: Filter design, convolution, FFT
-   - `scipy.fft`: Fast Fourier Transform
-   - `scipy.linalg`: Linear algebra
-   - Advanced signal processing functions
-
-3. **Matplotlib** - Visualization
-   - Line plots, scatter plots, stem plots
-   - Subplots and figure management
-   - Customization and styling
-   - Saving figures
-
-4. **Jupyter** - Interactive computing (optional)
-   - IPython kernel
-   - Inline plotting
-   - Markdown documentation
-   - Code cells and exploration
 
 ## Python Implementation
 
@@ -56,12 +13,6 @@ import matplotlib.pyplot as plt
 ```
 
 ### Example Topics
-
-See the `examples/` directory for implementations:
-- `numpy_basics.py`: NumPy arrays, indexing, operations
-- `scipy_signal_demo.py`: SciPy signal processing functions
-- `plotting_dsp_signals.py`: Matplotlib for DSP visualizations
-- `jupyter_intro.ipynb`: Interactive Jupyter notebook (optional)
 
 ## MATLAB to Python Quick Reference
 
@@ -172,4 +123,4 @@ jupyter notebook jupyter_intro.ipynb
 
 ## Next Lesson
 
-[Lesson 3: Linear, Time-Invariant Systems](../lesson_03/) - Learn about LTI systems and impulse response.
+
